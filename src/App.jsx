@@ -4,7 +4,7 @@ import data from "./data";
 
 function App() {
   const countryElements = data.map((entry) => {
-    return <Entry key={entry.id} entry={entry} />;
+    return <Entry key={entry.id} {...entry} />;
   });
   return (
     <>
