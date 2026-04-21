@@ -1,7 +1,9 @@
+import globe from "../assets/globe.svg";
+
 export default function Header() {
   return (
     <header>
-      <img src="/src/assets/globe.svg" alt="globe-image" />
+      <img src={globe} alt="Globe Image" />
       <h1>my travel journal</h1>
     </header>
   );
