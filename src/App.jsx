@@ -6,6 +6,7 @@ function App() {
   const countryElements = data.map((entry) => {
     return (
       <Entry
+        key={entry.id}
         img={entry.img}
         country={entry.country}
         googleMapsLink={entry.googleMapsLink}
